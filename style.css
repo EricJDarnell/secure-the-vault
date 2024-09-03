@@ -1,16 +1,18 @@
 body {
-    background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fsevanlocksanddoors.com%2Fwp-content%2Fuploads%2F2018%2F05%2FDepositphotos_8283612_m-2015.jpg&f=1&nofb=1&ipt=d0f1ca3051602da0097f273b46c25fdf3fe03de1f79c51500980bf895225cfb2&ipo=images);
+  background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fsevanlocksanddoors.com%2Fwp-content%2Fuploads%2F2018%2F05%2FDepositphotos_8283612_m-2015.jpg&f=1&nofb=1&ipt=d0f1ca3051602da0097f273b46c25fdf3fe03de1f79c51500980bf895225cfb2&ipo=images);
+  font-family: monospace;
 }
-header {
+header,
+#combination {
   font-size: x-large;
+  text-align: center;
 }
 #vault {
-  width: 80%;
+  width: 75%;
+  max-width: 500px;
   background-color: rgb(226, 223, 223);
   margin-left: auto;
   margin-right: auto;
-  text-align: center;
-}
-#combination {
-    font-size: x-large;
+  padding: 50px;
+  border: 2px solid black;
 }
